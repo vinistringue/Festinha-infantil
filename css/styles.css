@@ -1,117 +1,210 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-  }
-  
-  a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  /* Estilos do cabeçalho */
-  header {
-    background-color: #f8f9fa;
-    padding: 15px 0;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .logo img {
-    max-width: 150px;
-    height: auto;
-  }
-  
-  .nav {
-    margin-top: 10px;
-  }
-  
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #f8f9fa;
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo img {
+  max-width: 150px;
+  height: auto;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav-link {
+  font-size: 18px;
+  margin: 0 15px;
+}
+
+/* Estilos do carrossel */
+.carousel {
+  margin-top: 30px;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-item img {
+  border-radius: 10px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.carousel-caption h3 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.carousel-caption p {
+  font-size: 16px;
+  color: #e3e3e3;
+}
+
+/* Estilos da seção de serviços */
+.services {
+  padding: 30px 0;
+}
+
+.services .service {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.service img {
+  max-width: 150px;
+  height: auto;
+}
+
+.service h4 {
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
   .nav-link {
-    font-size: 18px;
-    margin: 0 15px;
-  }
-  
-  /* Estilos do carrossel */
-  .carousel {
-    margin-top: 30px;
-  }
-  
-  .carousel-inner {
-    border-radius: 10px;
-  }
-  
-  .carousel-item {
-    text-align: center;
-  }
-  
-  .carousel-item img {
-    border-radius: 10px;
-  }
-  
-  .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-    padding: 15px;
-  }
-  
-  .carousel-caption h3 {
-    font-size: 24px;
-    color: #fff;
-    margin-bottom: 10px;
-  }
-  
-  .carousel-caption p {
     font-size: 16px;
-    color: #e3e3e3;
-  }
-  
-  /* Estilos da seção de serviços */
-  .services {
-    padding: 30px 0;
-  }
-  
-  .services .service {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .service img {
-    max-width: 150px;
-    height: auto;
-  }
-  
-  .service h4 {
-    margin-top: 15px;
-    font-size: 22px;
-  }
-  
-  /* Estilos do rodapé */
-  footer {
-    background-color: #343a40;
-    color: #fff;
-    padding: 30px 0;
-  }
-  
-  .social-icons a {
-    color: #fff;
-    font-size: 24px;
     margin: 0 10px;
   }
-  
-  /* Estilos responsivos */
-  @media (max-width: 768px) {
-    .nav-link {
-      font-size: 16px;
-      margin: 0 10px;
-    }
-  
-    .carousel-caption h3 {
-      font-size: 20px;
-    }
-  
-    .carousel-caption p {
-      font-size: 14px;
-    }
+
+  .carousel-caption h3 {
+    font-size: 20px;
   }
-  
+
+  .carousel-caption p {
+    font-size: 14px;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+}
+
+.page-title {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.quote-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.quote-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.quote-form input[type="text"],
+.quote-form input[type="email"],
+.quote-form input[type="tel"],
+.quote-form input[type="number"],
+.quote-form select,
+.quote-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.quote-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quote-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilização específica para formulário de radio buttons */
+.quote-form .form-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Estilização específica para textarea */
+.quote-form textarea {
+  resize: vertical;
+}
