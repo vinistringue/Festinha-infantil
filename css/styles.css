@@ -105,6 +105,36 @@ footer {
   font-size: 24px;
   margin: 0 10px;
 }
+/* Estilos da seção de galeria */
+.gallery-photos,
+.gallery-videos {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.gallery-images,
+.gallery-videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.view-all {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Estilos específicos para imagens e vídeos */
+.gallery-images img,
+.gallery-videos iframe {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
 
 /* Estilos responsivos */
 @media (max-width: 768px) {
@@ -208,3 +238,4 @@ nav a {
 .quote-form textarea {
   resize: vertical;
 }
+
