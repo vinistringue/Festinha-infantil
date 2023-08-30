@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Solicitar Orçamento</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo da Empresa">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="#">Orçamento</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-title">
+    <h1>Solicitar Orçamento</h1>
+    <p>Preencha o formulário abaixo para receber um orçamento personalizado.</p>
+  </section>
+
+  <section class="quote-form">
+    <form id="quote-form">
+      <div class="form-group">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Endereço:</label>
+        <input type="text" id="address" name="address" required>
+      </div>
+      <div class="form-group">
+        <label for="event-date">Data do Evento:</label>
+        <input type="date" id="event-date" name="event-date" required>
+      </div>
+      <div class="form-group">
+        <label for="event-type">Tipo de Evento:</label>
+        <select id="event-type" name="event-type" required>
+          <option value="aniversario">Aniversário</option>
+          <option value="gincana">Gincana</option>
+          <option value="piquenique">Piquenique</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Idade Média dos Participantes:</label>
+        <input type="number" name="participants-age" required>
+      </div>
+      <div class="form-group">
+        <label>Serviço Necessário:</label>
+        <input type="radio" name="service-type" value="teatro" required> Teatro
+        <input type="radio" name="service-type" value="brinquedo"> Brinquedo
+        <input type="radio" name="service-type" value="apresentacao-educativa"> Apresentação Educativa
+      </div>
+      <div class="form-group">
+        <label for="observations">Observações:</label>
+        <textarea id="observations" name="observations" rows="4"></textarea>
+      </div>
+      <button type="submit">Solicitar</button>
+    </form>
+  </section>
+
+  <footer>
+    <!-- Informações de contato e links de redes sociais -->
+  </footer>
+</body>
+</html>
