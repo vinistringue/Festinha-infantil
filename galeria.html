@@ -41,26 +41,41 @@
         <img src="images/images (2).jpg" alt="Foto 3">
       </a>
     </div>
-    <a href="galeria.html" class="view-all">Ver todas</a> <!-- Link para a página de visualização completa das fotos -->
+    <a href="#" class="view-all" id="view-photos">Ver todas as fotos</a>
   </section>
 
   <section class="gallery-videos">
     <h2>Galeria de Vídeos</h2>
     <div class="gallery-videos">
       <!-- Adicione os vídeos da galeria de vídeos aqui -->
+      <a href="videos/video1.mp4" data-lightbox="videos" data-title="Vídeo 1">
+        <img src="images/video.jpg" alt="Vídeo 1">
+      </a>
+      <!-- Adicione mais vídeos da galeria aqui -->
     </div>
-    <a href="#" class="view-all">Ver todos</a>
+    <a href="#" class="view-all" id="view-videos">Ver todos os vídeos</a>
   </section>
 
   <section class="request-quote">
-    <a href="orcamento.html" class="request-button">Solicitar Orçamento</a>
+    <button type="submit">Solicitar Orçamento</button>
   </section>
 
   <footer>
     <!-- Informações de contato e links de redes sociais -->
   </footer>
-</body>
-</html>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+  <!-- Scripts no final da página para garantir carregamento correto -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  <script>
+    // Script para abrir a galeria de vídeos quando o link "Ver todos" é clicado
+    document.getElementById('view-videos').addEventListener('click', function(event) {
+      event.preventDefault();
+      lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true,
+        'alwaysShowNavOnTouchDevices': true
+      });
+    });
+  </script>
 </body>
 </html>
