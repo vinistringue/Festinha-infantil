@@ -25,6 +25,7 @@ header {
   border-bottom: 1px solid #ccc;
 }
 
+/* Estilos do logotipo */
 .logo img {
   max-width: 150px;
   height: auto;
@@ -100,11 +101,13 @@ footer {
   padding: 30px 0;
 }
 
+/* Ícones de redes sociais no rodapé */
 .social-icons a {
   color: #fff;
   font-size: 24px;
   margin: 0 10px;
 }
+
 /* Estilos da seção de galeria */
 .gallery-photos,
 .gallery-videos {
@@ -152,12 +155,14 @@ footer {
   }
 }
 
+/* Estilos para a classe 'container' */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+/* Estilos específicos para o cabeçalho */
 header {
   background-color: #f8f9fa;
   padding: 10px 0;
@@ -167,11 +172,13 @@ header {
   align-items: center;
 }
 
+/* Estilos para o logotipo no cabeçalho */
 .logo img {
   height: 40px;
   margin-left: 20px;
 }
 
+/* Estilos para a lista de navegação no cabeçalho */
 nav ul {
   list-style: none;
   margin: 0;
@@ -179,17 +186,20 @@ nav ul {
   display: flex;
 }
 
+/* Estilos para os links de navegação no cabeçalho */
 nav a {
   text-decoration: none;
   color: #333;
   padding: 10px 20px;
 }
 
+/* Estilos para a seção de título da página */
 .page-title {
   text-align: center;
   margin: 40px 0;
 }
 
+/* Estilos para o formulário de cotação */
 .quote-form {
   max-width: 600px;
   margin: 0 auto;
@@ -229,15 +239,12 @@ nav a {
   background-color: #0056b3;
 }
 
-
-
-/* Estilização específica para formulário de radio buttons */
+/* Estilos específicos para os radio buttons no formulário */
 .quote-form .form-group input[type="radio"] {
   margin-right: 5px;
 }
 
-/* Estilização específica para textarea */
+/* Estilos específicos para o textarea no formulário */
 .quote-form textarea {
   resize: vertical;
 }
-

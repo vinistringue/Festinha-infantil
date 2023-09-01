@@ -10,8 +10,12 @@
 </head>
 <body>
   <header>
+    <!-- Cabeçalho da página -->
     <div class="logo">
-      <img src="images/logo.png" alt="Logo da Empresa">
+      <!-- Adicionando um link ao logotipo que redireciona para index.html -->
+      <a href="index.html">
+        <img src="images/logo.png" alt="Logo da Empresa">
+      </a>
     </div>
     <nav>
       <ul>
@@ -23,6 +27,7 @@
   </header>
 
   <section class="page-title">
+    <!-- Título da página -->
     <h1>Galeria de Fotos e Vídeos</h1>
     <p>Confira nossas imagens e vídeos de eventos anteriores.</p>
   </section>
@@ -31,15 +36,10 @@
     <h2>Galeria de Fotos</h2>
     <div class="gallery-images">
       <!-- Adicione as fotos da galeria de fotos aqui -->
-      <a href="images/images.jpg" data-lightbox="gallery" data-title="Foto 1">
-        <img src="images/images.jpg" alt="Foto 1">
+      <a href="images/brinquedos.webp" data-lightbox="gallery" data-title="Foto 1">
+        <img src="images/brinquedos.webp" alt="Foto 1">
       </a>
-      <a href="images/images (1).jpg" data-lightbox="gallery" data-title="Foto 2">
-        <img src="images/images (1).jpg" alt="Foto 2">
-      </a>
-      <a href="images/images (2).jpg" data-lightbox="gallery" data-title="Foto 3">
-        <img src="images/images (2).jpg" alt="Foto 3">
-      </a>
+      <!-- Adicione mais fotos da galeria aqui -->
     </div>
     <a href="#" class="view-all" id="view-photos">Ver todas as fotos</a>
   </section>
@@ -49,15 +49,17 @@
     <div class="gallery-videos">
       <!-- Adicione os vídeos da galeria de vídeos aqui -->
       <a href="videos/video1.mp4" data-lightbox="videos" data-title="Vídeo 1">
-        <img src="images/video.jpg" alt="Vídeo 1">
+        <img src="images/entretenimento.jpg" alt="Vídeo 1">
       </a>
       <!-- Adicione mais vídeos da galeria aqui -->
     </div>
-    <a href="#" class="view-all" id="view-videos">Ver todos os vídeos</a>
+    <a href="videos/video.mp4" class="view-all btn btn-primary" target="_blank">Ver todos os vídeos</a>
+    <!-- O atributo target="_blank" abrirá o link em uma nova aba -->
   </section>
 
   <section class="request-quote">
-    <button type="submit">Solicitar Orçamento</button>
+    <!-- Use a tag <a> para criar o link para orcamento.html -->
+    <a href="orcamento.html" class="btn btn-primary">Solicitar Orçamento</a>
   </section>
 
   <footer>
@@ -66,16 +68,5 @@
 
   <!-- Scripts no final da página para garantir carregamento correto -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-  <script>
-    // Script para abrir a galeria de vídeos quando o link "Ver todos" é clicado
-    document.getElementById('view-videos').addEventListener('click', function(event) {
-      event.preventDefault();
-      lightbox.option({
-        'resizeDuration': 200,
-        'wrapAround': true,
-        'alwaysShowNavOnTouchDevices': true
-      });
-    });
-  </script>
 </body>
 </html>
