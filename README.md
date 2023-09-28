@@ -1,62 +1,36 @@
-## Finança Fácil 🏦💰 
+# KIDS - Festa Infantil 🎉👶
 
-### 🏦 Financeira Local - Site Criativo e Intuitivo
-- Bem-vindo ao site da nossa financeira local! Aqui, oferecemos uma ampla gama de serviços financeiros para atender às suas necessidades. Navegue pelas páginas abaixo para descobrir como podemos ajudá-lo a alcançar seus objetivos financeiros.
+Bem-vindo ao repositório do site da Empresa de Festa e Recreação Infantil! Este projeto tem como objetivo criar um site para uma empresa que oferece serviços de recreação infantil com teatro, brinquedos e apresentações educativas. O site foi desenvolvido com o intuito de agilizar os agendamentos e proporcionar uma experiência agradável aos nossos clientes.
 
-### Página Inicial 🏠
-- A nossa página inicial é projetada para chamar a sua atenção e despertar o seu interesse em nossos serviços. O que temos para você:
+## Recursos do Site 🖥️
 
-🌟 **Ofertas Especiais:** Confira nossas ofertas destacadas na parte superior da página.
+🎈 Recreação com Teatro: Nossa empresa oferece emocionantes atividades de teatro para crianças, garantindo momentos de diversão e aprendizado.
 
-📋 Principais Serviços:
+🎠 Brinquedos Divertidos: Temos uma variedade de brinquedos emocionantes para entreter as crianças e criar memórias felizes.
 
-🏦 **Empréstimos:** Para suas necessidades financeiras imediatas.
-🚗 **Financiamentos:** Ajuda para adquirir o carro dos seus sonhos.
-💰 **Antecipação de Recebidos:** Libere seu dinheiro rapidamente.
-Explore esses serviços e clique nos links para obter mais detalhes!
+📚 Apresentações Educativas: Além da diversão, proporcionamos apresentações educativas que estimulam o desenvolvimento cognitivo das crianças.
 
-### Página de Empréstimos 💸
-Precisa de um empréstimo? Nossa página de empréstimos está aqui para ajudar:
+🗓️ Agendamentos Simples: Nosso site torna o agendamento de festas e eventos infantis rápido e conveniente. Basta alguns cliques para garantir a diversão da sua criança!
 
-📦 **Tipos de Empréstimos:**
+## Como Contribuir 🤝
 
-Empréstimo Pessoal: Para suas despesas pessoais.
-Empréstimo Consignado: Uma opção com taxas especiais.
+Se você deseja contribuir para o desenvolvimento deste site, siga os passos abaixo:
 
-💡 **Simulação de Empréstimo:** Calcule suas parcelas:
+🍴 Faça um fork deste repositório.
+🛠️ Crie uma branch para suas alterações: git checkout -b sua-feature
+💬 Faça suas alterações e adicione mensagens de commit significativas.
+💼 Envie suas alterações: git push origin sua-feature
+📦 Abra um pull request descrevendo suas modificações.
 
- Selecione o tipo de empréstimo.
-Escolha o valor desejado (com opções predefinidas).
-Determine o prazo de pagamento.
-Veja o valor da parcela calculado instantaneamente.
+## Equipe 💼
 
-👤 **Seja Nosso Cliente:** Pronto para prosseguir? Clique no botão "Seja nosso cliente" para fornecer seus dados de contato e dar início ao processo de solicitação.
+👩‍💻 Vinícius Stringue - Desenvolvedor(a) Front-end
+👨‍💻 Vinícius Stringue - Desenvolvedor(a) Back-end
+👩‍🎨 Vinícius Stringue - Designer UI/UX
+👩‍💼 Vinícius Stringue - Gerente de Projeto
 
-🤔 **Perguntas Frequentes:** Possuímos uma seção de perguntas frequentes para esclarecer suas dúvidas. Clique nas perguntas para revelar as respostas.
+## Licença 📜
 
-### Página "Seja Nosso Cliente" 📝
-Deseja se tornar nosso cliente? Aqui está o que você precisa fazer:
+Este projeto está sob a licença MIT License - Veja o arquivo LICENSE.md para detalhes.
 
-
-📋 **Formulário de Inscrição:**
-
-Nome, e-mail, telefone.
-Escolha o tipo de serviço desejado.
-Informe se é aposentado ou não.
-🚀 Cadastrar: Pressione o botão "Cadastrar" para iniciar sua jornada conosco.
-
-### Elementos em Todas as Páginas
-
-🌐 Navegação Superior
-🏦 Logo da financeira.
-📚 Menu Lateral Esquerdo:
-
-### Links para todas as páginas do site.
-
-📞 Rodapé:
-
-Informações de contato.
-Links para redes sociais (📱WhatsApp, 🌐Email, 🌐GitHub).
-Sinta-se à vontade para explorar nosso site e descobrir como podemos ajudá-lo a conquistar seus objetivos financeiros. Estamos aqui para você! 😊
-
-Financeira Local - Criando Oportunidades, Transformando Sonhos em Realidade. 🌟
+Estamos ansiosos para criar um site incrível que traga alegria para crianças e seus pais! 🎈🎉 Seja bem-vindo(a) para contribuir e fazer parte deste projeto maravilhoso.
